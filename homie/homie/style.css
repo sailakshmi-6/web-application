@@ -1,0 +1,36 @@
+body {
+    background-color: #f8f9fa; /* Light background */
+    color: #333; /* Dark text color for better visibility */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for the container */
+    padding: 20px; /* Padding around the content */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 800px; /* Center the container */
+    margin: 20px auto; /* Center container with margin */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    font-weight: bold;
+    color: #5a5a5a; /* Darker text for headings */
+}
+
+.table img {
+    width: 100px; /* Fixed image width in the table */
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+.list-group-item {
+    background-color: #f1f1f1; /* Light gray for list items */
+    border: 1px solid #ddd; /* Border for list items */
+}
